@@ -1,0 +1,299 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+/*------------------- Estilos Header ---------------------*/
+
+header{
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    font-size: 15px;
+    padding-top: 1.5rem;
+    font-weight: bold;
+}
+
+.logo{
+    width: 7%;
+    margin-bottom: 30px;
+}
+
+.header-col1{
+    display: flex;
+    gap: 2rem;
+}
+
+.header-col2{
+    display: flex;
+    gap: 2rem;
+}
+
+.boton-header {
+    color: black;
+    border-radius: 10px;
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    align-items: center;
+    border-radius: 1.375rem;
+}
+
+.linea-con-sombra {
+    width: 100%;
+    height: 2px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/*------------------- Estilos Banner1 ---------------------*/
+
+.banner1{
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.titulo{
+    color: #000;
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transform: rotate(-7deg); /*Inclinar el texto*/
+    padding-bottom: 1rem;
+}
+
+.texto_amarillo{
+    padding: .25rem .5rem 0;
+    background-color: #fff000
+}
+
+.parrafo{
+    color: #333;
+    font-size: 1.125rem;
+}
+
+.boton-col1{
+    justify-content: center;
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1.375rem;
+    padding: .5rem 1.5rem;
+    background-color: #fff000;
+    border: none;
+}
+
+.imagen-col2{
+    width: 100%;
+}
+
+
+/*------------------- Estilos Banner2 ---------------------*/
+
+.banner2 {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+}
+
+.imagenes {
+    display: flex;
+    gap: 2rem;
+}
+
+.imagen {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.boton {
+    color: black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    border-radius: 1.375rem;
+}
+
+.banner2-texto{
+    padding-left: 1rem;
+}
+
+.imagen1 {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.imagen2{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.imagen3{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.img1{
+    background-color: #f1f1f1fa;
+    border-radius: 10px;
+}
+
+.img2{
+    background-color: #f1f1f1fa;
+    border-radius: 10px;
+}
+
+.img3{
+    background-color: #f1f1f1fa;
+    border-radius: 10px;
+}
+
+/*------------------- Estilos Banner3 ---------------------*/
+
+.banner3 {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+}
+
+.banner3-titulo{
+    display: flex;
+    gap: 1rem;
+}
+
+.boton-titulo {
+    color: black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 1.6rem;
+    margin-top: 1.2rem;
+    align-items: center;
+    border-radius: 1.375rem;
+}
+
+.imagenes-banner3{
+    display: flex;
+    gap: 1rem;
+}
+
+.banner3-imagenes{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.banner3-img1{
+    background-color: #f1f1f1fa;
+    border-radius: 10px;
+}
+
+.banner3-img2{
+    background-color: #f1f1f1fa;
+    border-radius: 10px;
+}
+
+.banner3-img3{
+    background-color: #f1f1f1fa;
+    border-radius: 10px;
+}
+
+.banner3-img4{
+    background-color: #f1f1f1fa;
+    border-radius: 10px;
+}
+
+.texto-img{
+    padding-left: 1rem;
+}
+
+/*------------------- Estilos Banner4 ---------------------*/
+
+.banner4{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+}
+
+
+.banner4-imagenes{
+    display: flex;
+    gap: 1rem;
+}
+
+.banner4-col3{
+    display: flex;
+    gap: 1.4rem;
+    padding-top: 1.2rem;
+}
+
+.banner4-img1{
+    border-radius: 10px 0px 0px 10px;
+    width: 634px;
+}
+
+.banner4-img2{
+    border-radius: 0px 10px 0px 0px;
+    width: 634px;
+}
+
+.banner4-img3{
+    width: 306px;
+}
+
+.banner4-img4{
+    border-radius: 0px 0px 10px 0px;
+    width: 306px;
+}
+
+/*------------------- Estilos Banner5 ---------------------*/
+
+.banner5{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+}
+
+.banner5-imagenes{
+    display: flex;
+    gap: 1rem;
+}
+
+.banner5-img{
+    width: 24%;
+}
+
+.primera{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.ultima{
+    border-radius: 0px 10px 10px 0px;
+    border-style: solid;
+    border-color: rgb(233, 233, 233);
+}
+
+/*------------------- Estilos Banner6 ---------------------*/
+
+.banner6{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    display: flex;
+    gap: 1rem;
+}
+
+.banner6-img1{
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+}
+
+.banner6-img2{
+    border-radius: 0px 10px 10px 0px;
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(233, 233, 233);
+}
